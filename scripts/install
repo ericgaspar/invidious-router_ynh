@@ -22,10 +22,10 @@ chmod +x "$install_dir/invidious-router"
 #=================================================
 #ynh_script_progression --message="Adding $app's configuration files..." --weight=1
 
-#ynh_add_config --template="some_config_file" --destination="$install_dir/some_config_file"
+#ynh_add_config --template="config.yaml" --destination="$install_dir/config.yaml"
 
-#chmod 400 "$install_dir/some_config_file"
-#chown "$app:$app" "$install_dir/some_config_file"
+#chmod 400 "$install_dir/config.yaml"
+#chown "$app:$app" "$install_dir/config.yaml"
 
 #=================================================
 # SYSTEM CONFIGURATION

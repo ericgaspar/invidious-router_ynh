@@ -16,7 +16,6 @@ license = "MIT"
 website = "https://example.com"
 demo = "https://demo.example.com"
 admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://gitlab.com/gaincoder/invidious-router"
 
 [integration]
